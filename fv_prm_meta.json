@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "parameters": {
+    "CHS_BRK_MIN_L": {
+      "displayName": "L Brake min position ratio",
+      "description": "Left brake servo position when it is disengaged",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.3,
+      "rebootRequired": false
+    },
+    "CHS_BRK_MIN_R": {
+      "displayName": "R Brake min position ratio",
+      "description": "Right brake servo position when it is disengaged",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.3,
+      "rebootRequired": false
+    },
+    "CHS_BRK_MID_L": {
+      "displayName": "L Brake min position ratio during turn",
+      "description": "Left brake servo position when it is disengaged during turn",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.3,
+      "rebootRequired": false
+    },
+    "CHS_BRK_MID_R": {
+      "displayName": "R Brake min position ratio during turn",
+      "description": "Right brake servo position when it is disengaged during turn",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.3,
+      "rebootRequired": false
+    },
+    "CHS_BRK_MAX_L": {
+      "displayName": "L Brake max position ratio",
+      "description": "Left brake servo position when it is engaged",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.55,
+      "rebootRequired": false
+    },
+    "CHS_BRK_MAX_R": {
+      "displayName": "R Brake max position ratio",
+      "description": "Right brake servo position when it is engaged",
+      "units": "",
+      "decimalPlaces": 1,
+      "increment": 1,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.55,
+      "rebootRequired": false
+    },
+    "CHS_PWM_ATMIN_L": {
+      "displayName": "L PWM at min",
+      "description": "Left engine PWM at minimum throttle",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 1,
+      "min": 1.0,
+      "max": 65535.0,
+      "default": 1100,
+      "rebootRequired": false
+    },
+    "CHS_PWM_ATMIN_R": {
+      "displayName": "R PWM at min",
+      "description": "Right engine PWM at minimum throttle",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 1,
+      "min": 1.0,
+      "max": 65535.0,
+      "default": 1100,
+      "rebootRequired": false
+    },
+    "CHS_PWM_ATMAX_L": {
+      "displayName": "L PWM at max",
+      "description": "Left engine PWM at maximum throttle",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 1,
+      "min": 1.0,
+      "max": 65535.0,
+      "default": 300,
+      "rebootRequired": false
+    },
+    "CHS_PWM_ATMAX_R": {
+      "displayName": "R PWM at max",
+      "description": "Right engine PWM at maximum throttle",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 1,
+      "min": 1.0,
+      "max": 65535.0,
+      "default": 300,
+      "rebootRequired": false
+    },
+    "CHS_THRTL_MLT_L": {
+      "displayName": "L Throttle MLT",
+      "description": "Left engine throttle multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "CHS_THRTL_MLT_R": {
+      "displayName": "R Throttle MLT",
+      "description": "Right engine throttle multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "CHS_RVRS_MLT_L": {
+      "displayName": "L Reverse MLT",
+      "description": "Left engine reverse throttle multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "CHS_RVRS_MLT_R": {
+      "displayName": "R Reverse MLT",
+      "description": "Right engine reverse throttle multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "AP_THTL_MAX": {
+      "displayName": "AP max throttle",
+      "description": "AP max throttle control multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "AP_THTL_PID_P": {
+      "displayName": "AP P",
+      "description": "AP Throttle PID parameter (P)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_THTL_PID_I": {
+      "displayName": "AP I",
+      "description": "AP Throttle PID parameter (I)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_THTL_PID_D": {
+      "displayName": "AP D",
+      "description": "AP Throttle PID parameter (D)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_THTL_PID_IMAX": {
+      "displayName": "AP MAX I",
+      "description": "AP Throttle PID max I parameter",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_TURN_MAX": {
+      "displayName": "AP max turn",
+      "description": "AP max turn control multiplier",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 1.0,
+      "default": 1.0,
+      "rebootRequired": false
+    },
+    "AP_TURN_PID_P": {
+      "displayName": "AP TURN P",
+      "description": "AP Turn PID parameter (P)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_TURN_PID_I": {
+      "displayName": "AP TURN I",
+      "description": "AP Turn PID parameter (I)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_TURN_PID_D": {
+      "displayName": "AP TURN D",
+      "description": "AP Turn PID parameter (D)",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    },
+    "AP_TURN_PID_IMAX": {
+      "displayName": "AP TURN MAX I",
+      "description": "AP Turn PID max I parameter",
+      "units": "",
+      "decimalPlaces": 0,
+      "increment": 0.05,
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.5,
+      "rebootRequired": false
+    }
+  }
+}

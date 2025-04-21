@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<Params>
+  <ArduRover>
+    <CHS_BRK_MIN_L>
+      <DisplayName>Left brake min</DisplayName>
+      <Description>Left brake servo position when it is disengaged</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.3:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MIN_L>
+    <CHS_BRK_MIN_R>
+      <DisplayName>Right brake min</DisplayName>
+      <Description>Right brake servo position when it is disengaged</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.3:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MIN_R>
+    <CHS_BRK_MID_L>
+      <DisplayName>Left brake min on turn</DisplayName>
+      <Description>Left brake servo position when it is disengaged during turn</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.3:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MID_L>
+    <CHS_BRK_MID_R>
+      <DisplayName>Right brake min on turn</DisplayName>
+      <Description>Right brake servo position when it is disengaged during turn</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.3:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MID_R>
+    <CHS_BRK_MAX_L>
+      <DisplayName>Left brake max</DisplayName>
+      <Description>Left brake servo position when it is engaged</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.55:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MAX_L>
+    <CHS_BRK_MAX_R>
+      <DisplayName>Right brake max</DisplayName>
+      <Description>Right brake servo position when it is engaged</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.01</Increment>
+      <Values>0.55:Default</Values>
+      <User>Standard</User>
+    </CHS_BRK_MAX_R>
+    <CHS_PWM_ATMIN_L>
+      <DisplayName>L PWM at min</DisplayName>
+      <Description>Left engine PWM at zero throttle</Description>
+      <Units></Units>
+      <Range>1 65535</Range>
+      <Increment>1</Increment>
+      <Values>1100:Default</Values>
+      <User>Standard</User>
+    </CHS_PWM_ATMIN_L>
+    <CHS_PWM_ATMIN_R>
+      <DisplayName>R PWM at min</DisplayName>
+      <Description>Right engine PWM at zero throttle</Description>
+      <Units></Units>
+      <Range>1 65535</Range>
+      <Increment>1</Increment>
+      <Values>1100:Default</Values>
+      <User>Standard</User>
+    </CHS_PWM_ATMIN_R>
+    <CHS_PWM_ATMAX_L>
+      <DisplayName>L PWM at max</DisplayName>
+      <Description>Left engine PWM at max throttle</Description>
+      <Units></Units>
+      <Range>1 65535</Range>
+      <Increment>1</Increment>
+      <Values>200:Default</Values>
+      <User>Standard</User>
+    </CHS_PWM_ATMAX_L>
+    <CHS_PWM_ATMAX_R>
+      <DisplayName>R PWM at max</DisplayName>
+      <Description>Right engine PWM at max throttle</Description>
+      <Units></Units>
+      <Range>1 65535</Range>
+      <Increment>1</Increment>
+      <Values>200:Default</Values>
+      <User>Standard</User>
+    </CHS_PWM_ATMAX_R>
+    <CHS_THRTL_MLT_L>
+      <DisplayName>L Throttle MLT</DisplayName>
+      <Description>Left engine throttle multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+    </CHS_THRTL_MLT_L>
+    <CHS_THRTL_MLT_R>
+      <DisplayName>R Throttle MLT</DisplayName>
+      <Description>Right engine throttle multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+    </CHS_THRTL_MLT_R>
+    <CHS_RVRS_MLT_L>
+      <DisplayName>L Reverse MLT</DisplayName>
+      <Description>Left engine reverse throttle multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+    </CHS_RVRS_MLT_L>
+    <CHS_RVRS_MLT_R>
+      <DisplayName>R Reverse MLT</DisplayName>
+      <Description>Right engine reverse throttle multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+    </CHS_RVRS_MLT_R>
+    <AP_THTL_MAX>
+      <DisplayName>AP max throttle</DisplayName>
+      <Description>AP max throttle control multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+      <Default>1.0</Default>
+    </AP_THTL_MAX>
+    <AP_THTL_PID_P>
+      <DisplayName>AP P</DisplayName>
+      <Description>AP Throttle PID parameter (P)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0.2:Default</Values>
+      <User>Standard</User>
+    </AP_THTL_PID_P>
+    <AP_THTL_PID_I>
+      <DisplayName>AP I</DisplayName>
+      <Description>AP Throttle PID parameter (I)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_THTL_PID_I>
+    <AP_THTL_PID_D>
+      <DisplayName>AP D</DisplayName>
+      <Description>AP Throttle PID parameter (D)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_THTL_PID_D>
+    <AP_THTL_PID_IMAX>
+      <DisplayName>AP MAX I</DisplayName>
+      <Description>AP Throttle PID max I parameter</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_THTL_PID_IMAX>
+    <AP_TURN_MAX>
+      <DisplayName>AP max turn</DisplayName>
+      <Description>AP max turn control multiplier</Description>
+      <Units></Units>
+      <Range>0 1</Range>
+      <Increment>0.1</Increment>
+      <Values>1.0:Default</Values>
+      <User>Standard</User>
+    </AP_TURN_MAX>
+    <AP_TURN_PID_P>
+      <DisplayName>AP TURN P</DisplayName>
+      <Description>AP Turn PID parameter (P)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0.2:Default</Values>
+      <User>Standard</User>
+    </AP_TURN_PID_P>
+    <AP_TURN_PID_I>
+      <DisplayName>AP TURN I</DisplayName>
+      <Description>AP Turn PID parameter (I)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_TURN_PID_I>
+    <AP_TURN_PID_D>
+      <DisplayName>AP TURN D</DisplayName>
+      <Description>AP Turn PID parameter (D)</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_TURN_PID_D>
+    <AP_TURN_PID_IMAX>
+      <DisplayName>AP TURN MAX I</DisplayName>
+      <Description>AP Turn PID max I parameter</Description>
+      <Units></Units>
+      <Range>0 99999</Range>
+      <Increment>0.1</Increment>
+      <Values>0:Default</Values>
+      <User>Standard</User>
+    </AP_TURN_PID_IMAX>
+  </ArduRover>
+</Params>
